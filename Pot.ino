@@ -2,8 +2,9 @@
 #include "ST7036.h"
 #include "bin.h"
 
-//Todo: Move large character code into separate module
-//      Scale the values to include one decimal place 
+//Hardware required:
+//1: I2C LCD connected on standard pins
+//2: Linear Pot connected on analog pin 1
 
 long sensorValue = 0;  // variable to store the value coming from the sensor
 long angle = 0;
@@ -121,6 +122,7 @@ void loop()
 {
   // read the value from the sensor:
   sensorValue = analogRead(A0);    
+  // Makes the assumption that the pot turns 360 degrees, adjust the value below to compensate e.g. a 300 degree pot would be 3000
   angle = (sensorValue * 3600 / 1024); 
   display(angle);
 
