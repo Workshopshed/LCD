@@ -14,4 +14,5 @@ Check the previous value and if not changed then don't refresh, this would stop 
 References:
 
 http://arduino.cc/forum/index.php/topic,44427.0.html
+
 http://hifiduino.blogspot.co.uk/2009/05/improved-display.html
