@@ -16,3 +16,7 @@ References:
 http://arduino.cc/forum/index.php/topic,44427.0.html
 
 http://hifiduino.blogspot.co.uk/2009/05/improved-display.html
+
+This project is part of a series of articles about making a rotary table with a digital readout for more details on this project see:
+
+http://www.workshopshed.com
